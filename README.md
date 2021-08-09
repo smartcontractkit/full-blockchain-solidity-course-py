@@ -11,7 +11,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Consensus](#consensus)
   - [The Future](#the-future)
   - [Miscellaneous](#miscellaneous)
-- [Lesson 1: Simple Storage](#lesson-1-simple-storage)
+- [Lesson 1: Welcome to Remix! Simple Storage](#lesson-1-welcome-to-remix-simple-storage)
     - [Everything in this section can be read about in the Solidity Documentation](#everything-in-this-section-can-be-read-about-in-the-solidity-documentation)
     - [Remix](#remix)
     - [Basic Solidity](#basic-solidity)
@@ -67,7 +67,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Defi Stake Yield Brownie Scripts & Tests](#defi-stake-yield-brownie-scripts--tests)
     - [Testing our Defi Stake Yield Brownie Dapp](#testing-our-defi-stake-yield-brownie-dapp)
     - [Front End / Full Stack](#front-end--full-stack)
-- [Bonus Lesson 14: Security](#bonus-lesson-14-security)
+- [Closing and Summary](#closing-and-summary)
 
 # Resources For This Course
 ### Questions
@@ -110,7 +110,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Ethereum 2](https://ethereum.org/en/eth2/)
 ## Miscellaneous 
 - [DAOs](https://www.investopedia.com/tech/what-dao/)
-# Lesson 1: [Simple Storage](https://github.com/PatrickAlphaC/simple_storage)
+# Lesson 1: [Welcome to Remix! Simple Storage](https://github.com/PatrickAlphaC/simple_storage)
 ### Everything in this section can be read about in the [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.6/index.html)
 ### [Remix](https://remix.ethereum.org/)
 ### Basic Solidity
@@ -134,6 +134,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Memory
 - Mappings
 - SPDX License
+- Recap
 ### Deploying to a "Live" network
 - A testnet or mainnet
 - [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#rinkeby)
@@ -146,6 +147,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Imports
 - Deploy a Contract From a Contract
 - Interact With a Deployed Contract
+- Recap
 # Lesson 3: [Fund Me](https://github.com/PatrickAlphaC/fund_me)
 ### Payable, msg.sender, msg.value, Units of Measure
 - Payable
@@ -460,7 +462,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [conftest.py](https://stackoverflow.com/questions/34466027/in-pytest-what-is-the-use-of-conftest-py-files)
 # Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix) 
 ## [Brownie Mixes](https://github.com/brownie-mix)
-# Lesson 9: [ERC20s, EIPs, and Token Standards](https://github.com/PatrickAlphaC/erc20-brownie)
+# Lesson 9: [ERC20s, EIPs, and Token Standards](https://github.com/PatrickAlphaC/erc20-brownie-py)
 - [ERC20/EIP20 Standard](https://eips.ethereum.org/EIPS/eip-20)
 - What is an ERC20?
 - Creating an ERC20
@@ -471,7 +473,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Copy paste `helpful_scripts.py`
 - Viewing our token in metamask
 - Adding to an exchange
-# Lesson 10: [Defi & Aave](https://github.com/PatrickAlphaC/aave_brownie_py)
+# Lesson 10: [Defi & Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
 ### Defi Intro
 - [Defipulse](https://defipulse.com/)
 - [Defillama](https://defillama.com/)
@@ -502,7 +504,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Repaying our borrows/loans
 - Reward token / governance token
 - Governance
-### [Programmatic Interactions with Aave](https://github.com/PatrickAlphaC/aave_brownie_py)
+### [Programmatic Interactions with Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
 - Quant Defi Engineer
 - [Aave Documentation](https://docs.aave.com/developers/)
 - Setup
@@ -535,7 +537,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Kovan Run
 - Viewing the transactions
 ### Testing
-# Lesson 11: [NFTs](https://github.com/PatrickAlphaC/nft-mix)
+# Lesson 11: [NFTs](https://github.com/PatrickAlphaC/nft-demo)
 ### Non-Technical Explainer
 - [End-to-end article](https://www.freecodecamp.org/news/how-to-make-an-nft-and-render-on-opensea-marketplace/)
 - What is an NFT?
@@ -714,17 +716,27 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - `BalanceMsg`
   - Stake Form
   - Calling `approve`
-# Bonus Lesson 14: Security
+  - `useContractFunction`
+  - `useEffect`
+  - Notifications
+  - Make it pretty
+  - Alerts
+# Closing and Summary
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [Attacks](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
   - Oracle Attacks
   - Re-entrancy Attacks
+- [Chainlink Discord](https://discord.gg/2YHSAey)
+- [Reddit ethdev](https://www.reddit.com/r/ethdev/)
+- Hackathons:
+  - [CL Hackathon](https://chain.link/hackathon)
+  - [ETH Global](https://ethglobal.co/)
+
 TODO:
 github (fund_me)
 (also show git clone on the projects in here)
 Add lesson transition slides
 Add summaries
-Add photos & green screen stuff
 Clarify the part about adding erc20s to uniswap. Say it's for mainnet only. 
 Clarify that we aren't going to go too deep into the fintech terms, but we will go through the UI and then teach how to code it
 On the NFT stuff, make sure you mention IPFS compainion earlier
