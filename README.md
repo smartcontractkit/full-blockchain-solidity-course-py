@@ -43,7 +43,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [`Lottery.sol`](#lotterysol)
     - [Testing Lottery.sol](#testing-lotterysol)
     - [Lottery.sol Testnet Deployment](#lotterysol-testnet-deployment)
-- [Lesson 8: Chainlink Mix & [Brownie Mixes](https://github.com/brownie-mix)](#lesson-8-chainlink-mix--brownie-mixes)
+- [Lesson 8: Chainlink Mix](#lesson-8-chainlink-mix)
+  - [Brownie Mixes](#brownie-mixes)
 - [Lesson 9: ERC20s, EIPs, and Token Standards](#lesson-9-erc20s-eips-and-token-standards)
 - [Lesson 10: Defi & Aave](#lesson-10-defi--aave)
     - [Defi Intro](#defi-intro)
@@ -457,7 +458,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ### Lottery.sol Testnet Deployment
 - `topics`
 - [conftest.py](https://stackoverflow.com/questions/34466027/in-pytest-what-is-the-use-of-conftest-py-files)
-# Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix) & [Brownie Mixes](https://github.com/brownie-mix)
+# Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix) 
+## [Brownie Mixes](https://github.com/brownie-mix)
 # Lesson 9: [ERC20s, EIPs, and Token Standards](https://github.com/PatrickAlphaC/erc20-brownie)
 - [ERC20/EIP20 Standard](https://eips.ethereum.org/EIPS/eip-20)
 - What is an ERC20?
