@@ -381,8 +381,11 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - `brownie test --network mainnet-fork`
 - brownie ganache vs local ganache vs mainnet-fork vs testnet...
 ### Git
-- Installing Git
-- Creating a repository (repo)
+- [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Creating a repository 
+- [First time with git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+- [Adding our project to github](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
+- Tweet it out!
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
 ### Introduction
 - Add a `README.md`
@@ -731,13 +734,3 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Hackathons:
   - [CL Hackathon](https://chain.link/hackathon)
   - [ETH Global](https://ethglobal.co/)
-
-TODO:
-github (fund_me)
-(also show git clone on the projects in here)
-Add lesson transition slides
-Add summaries
-Clarify the part about adding erc20s to uniswap. Say it's for mainnet only. 
-Clarify that we aren't going to go too deep into the fintech terms, but we will go through the UI and then teach how to code it
-On the NFT stuff, make sure you mention IPFS compainion earlier
-NFT pip install requests
