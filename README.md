@@ -68,6 +68,11 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Testing our Defi Stake Yield Brownie Dapp](#testing-our-defi-stake-yield-brownie-dapp)
     - [Front End / Full Stack](#front-end--full-stack)
 - [Closing and Summary](#closing-and-summary)
+  - [Security](#security)
+  - [Where do I go now?](#where-do-i-go-now)
+    - [Learning More](#learning-more)
+    - [Community](#community)
+    - [Hackathons](#hackathons)
 
 # Resources For This Course
 ### Questions
@@ -725,12 +730,36 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - Make it pretty
   - Alerts
 # Closing and Summary
+## Security
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [Attacks](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
-  - Oracle Attacks
-  - Re-entrancy Attacks
+  - [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
+  - [Re-entrancy Attacks](https://quantstamp.com/blog/what-is-a-re-entrancy-attack)
+- [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
+## Where do I go now?
+### Learning More
+- [CryptoZombies](https://cryptozombies.io/)
+- [Dapp University](https://www.youtube.com/channel/UCY0xL8V6NzzFcwzHCgB8orQ)
+- [ChainShot](https://www.chainshot.com/courses)
+- [Ivan on Tech](https://academy.ivanontech.com/)
+- [Eat the Blocks](https://www.youtube.com/channel/UCZM8XQjNOyG2ElPpEUtNasA)
+- [Patrick Collins](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
+- [Austin Griffith](https://www.youtube.com/channel/UC_HI2i2peo1A-STdG22GFsA)
+- [Nader Dabit](https://www.youtube.com/user/boyindasouth)
+- [Ethereum.org](https://ethereum.org/en/)
+### Community
+- Twitter
+- [Brownie Discord](https://discord.gg/9zk7snTfWe)
+- [Ethereum Discord](https://ethereum.org/en/)
 - [Chainlink Discord](https://discord.gg/2YHSAey)
 - [Reddit ethdev](https://www.reddit.com/r/ethdev/)
-- Hackathons:
+
+### Hackathons
   - [CL Hackathon](https://chain.link/hackathon)
   - [ETH Global](https://ethglobal.co/)
+  - [ETH India](https://twitter.com/ETHIndiaco)
+
+Be sure to check out project grant programs!
+
+And make today an amazing day!
