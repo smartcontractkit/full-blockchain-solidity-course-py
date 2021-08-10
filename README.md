@@ -737,6 +737,10 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - [Re-entrancy Attacks](https://quantstamp.com/blog/what-is-a-re-entrancy-attack)
 - [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
 - [Ethernaut](https://ethernaut.openzeppelin.com/)
+- Some Auditors
+  - [OpenZeppelin](https://openzeppelin.com/)
+  - [SigmaPrime](https://sigmaprime.io/)
+  - [Trail of Bits](https://www.trailofbits.com/)
 ## Where do I go now?
 ### Learning More
 - [CryptoZombies](https://cryptozombies.io/)
