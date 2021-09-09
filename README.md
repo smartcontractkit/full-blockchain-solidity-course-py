@@ -1,3 +1,5 @@
+[YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
+
 Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition FreeCodeCamp course!
 
 # Table of Contents
