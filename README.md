@@ -1,5 +1,13 @@
 [YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
+<br/>
+<p align="center">
+<a href="https://www.youtube.com/watch?v=M576WGiDBdQ" target="_blank">
+<img src="./img/youtube_thumbnail.jpeg" width="350" alt="Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial">
+</a>
+</p>
+<br/>
+
 Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition FreeCodeCamp course!
 
 # Table of Contents
