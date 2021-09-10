@@ -739,6 +739,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - Notifications
   - Make it pretty
   - Alerts
+Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
+
 # Closing and Summary
 ## Security
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
