@@ -104,7 +104,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Metamask](https://metamask.io/)
 - [Etherscan](https://etherscan.io/)
 - [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
-- [Rinkeby Faucet](https://faucet.rinkeby.io/)
+- Rinkeby Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby))
   - NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.  
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
