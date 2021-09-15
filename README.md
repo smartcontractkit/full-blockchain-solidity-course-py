@@ -128,6 +128,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ## Miscellaneous 
 - [DAOs](https://www.investopedia.com/tech/what-dao/)
 # Lesson 1: [Welcome to Remix! Simple Storage](https://github.com/PatrickAlphaC/simple_storage)
+💻 Code: https://github.com/PatrickAlphaC/simple_storage
 ### Everything in this section can be read about in the [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.6/index.html)
 ### [Remix](https://remix.ethereum.org/)
 ### Basic Solidity
@@ -159,6 +160,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Interacting with Deployed Contracts
 - The EVM
 # Lesson 2: [Storage Factory](https://github.com/PatrickAlphaC/storage_factory)
+💻 Code: https://github.com/PatrickAlphaC/storage_factory
 ### Inheritance, Factory Pattern, and Interacting with External Contracts
 - Factory Pattern
 - Imports
@@ -166,6 +168,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Interact With a Deployed Contract
 - Recap
 # Lesson 3: [Fund Me](https://github.com/PatrickAlphaC/fund_me)
+💻 Code: https://github.com/PatrickAlphaC/fund_me
 ### Payable, msg.sender, msg.value, Units of Measure
 - Payable
 - [Wei/Gwei/Eth Converter](https://eth-converter.com/)
@@ -214,6 +217,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Forcing a Transaction
 - Recap
 # Lesson 4: [Web3.py Simple Storage](https://github.com/PatrickAlphaC/web3_py_simple_storage)
+💻 Code: https://github.com/PatrickAlphaC/web3_py_simple_storage
 ### Installing VSCode, Python, and Web3
 - [Developer Bootcamp Setup Instructions (metamask, vscode, python, nodejs..)](https://chain.link/bootcamp/brownie-setup-instructions)
 - [VSCode](https://code.visualstudio.com/download)
@@ -297,6 +301,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Chain Ids](https://chainlist.org/)
 - Wow this seems like a lot of work... Is there a better way?
 # Lesson 5: [Brownie Simple Storage](https://github.com/PatrickAlphaC/brownie_simple_storage)
+💻 Code: https://github.com/PatrickAlphaC/brownie_simple_storage
 ### Brownie Introduction
 - Some Users:
   - https://yearn.finance/
@@ -352,6 +357,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ### [Brownie console]
 - `brownie console`
 # Lesson 6: [Brownie Fund Me](https://github.com/PatrickAlphaC/brownie_fund_me)
+💻 Code: https://github.com/PatrickAlphaC/brownie_fund_me
+
 ### Introduction
 - Setup
 ### Dependencies, Deploying, and Networks
@@ -404,6 +411,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Adding our project to github](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
 - Tweet it out!
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
+💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
+
 ### Introduction
 - Add a `README.md`
 - Defining the project
@@ -481,8 +490,11 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - `topics`
 - [conftest.py](https://stackoverflow.com/questions/34466027/in-pytest-what-is-the-use-of-conftest-py-files)
 # Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix) 
+💻 Code: https://github.com/smartcontractkit/chainlink-mix
+
 ## [Brownie Mixes](https://github.com/brownie-mix)
 # Lesson 9: [ERC20s, EIPs, and Token Standards](https://github.com/PatrickAlphaC/erc20-brownie-py)
+💻 Code: https://github.com/PatrickAlphaC/erc20-brownie-py
 - [ERC20/EIP20 Standard](https://eips.ethereum.org/EIPS/eip-20)
 - What is an ERC20?
 - Creating an ERC20
@@ -494,6 +506,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Viewing our token in metamask
 - Adding to an exchange
 # Lesson 10: [Defi & Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
+💻 Code: https://github.com/PatrickAlphaC/aave_brownie_py_freecode
+
 ### Defi Intro
 - [Defipulse](https://defipulse.com/)
 - [Defillama](https://defillama.com/)
@@ -558,6 +572,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Viewing the transactions
 ### Testing
 # Lesson 11: [NFTs](https://github.com/PatrickAlphaC/nft-demo)
+💻 Code: https://github.com/PatrickAlphaC/nft-demo
+
 ### Non-Technical Explainer
 - [End-to-end article](https://www.freecodecamp.org/news/how-to-make-an-nft-and-render-on-opensea-marketplace/)
 - What is an NFT?
@@ -632,6 +648,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - End-To-End Manual Testnet Test
 - Viewing on Opensea
 # Lesson 12: [Upgrades](https://github.com/PatrickAlphaC/upgrades-mix)
+💻 Code: https://github.com/PatrickAlphaC/upgrades-mix
+
 ### Introduction to upgrading smart contracts
 - [Original Video](https://www.youtube.com/watch?v=bdXJmWajZRY)
 - Smart Contracts can be upgraded!
@@ -674,6 +692,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Testing our upgrades
 ### Upgrades on a testnet
 # Bonus Lesson 13: [Full Stack Defi](https://github.com/PatrickAlphaC/defi-stake-yield-brownie)
+💻 Code: https://github.com/PatrickAlphaC/defi-stake-yield-brownie
+
 - [FreeCodeCamp React](https://www.freecodecamp.org/news/tag/react/)
 - What are we building?
 - Setup
