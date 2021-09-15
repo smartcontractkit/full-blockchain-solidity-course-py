@@ -691,8 +691,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Testing our proxy
 - Testing our upgrades
 ### Upgrades on a testnet
-# Bonus Lesson 13: [Full Stack Defi](https://github.com/PatrickAlphaC/defi-stake-yield-brownie)
-💻 Code: https://github.com/PatrickAlphaC/defi-stake-yield-brownie
+# Bonus Lesson 13: [Full Stack Defi](https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode)
+💻 Code: https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode
 
 - [FreeCodeCamp React](https://www.freecodecamp.org/news/tag/react/)
 - What are we building?
