@@ -26,6 +26,6 @@ This file will list issues/updates by timestamp. If you have an issue that you d
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
--   In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
--   However, it's still best practice to learn how to use events, especially when updating mappings!
+  - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
+  - However, it's still best practice to learn how to use events, especially when updating mappings!
 
