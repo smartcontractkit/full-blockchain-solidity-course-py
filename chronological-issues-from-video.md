@@ -56,3 +56,8 @@ Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For ex
   - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
   - However, it's still best practice to learn how to use events, especially when updating mappings!
 
+- [8:10:20ish](https://youtu.be/M576WGiDBdQ?t=29423)
+  - In the video, `starting_balance_of_account` and `balance_of_lottery` are retrieved AFTER `lottery.endLottery()`
+  - For correctness those 2 statements should be run BEFORE `lottery.endLottery()` 
+  - The tests pass because `starting_balance_of_account == account.balance()` (L81) and `lottery.balance()` is already 0
+  - This is a subtle bug in the test, which also showcases a problem with tests - we have no one to test the tests ;) Still, having tests is better than not having them, just don't put all your assurances into them
