@@ -61,3 +61,7 @@ Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For ex
   - For correctness those 2 statements should be run BEFORE `lottery.endLottery()` 
   - The tests pass because `starting_balance_of_account == account.balance()` (L81) and `lottery.balance()` is already 0
   - This is a subtle bug in the test, which also showcases a problem with tests - we have no one to test the tests ;) Still, having tests is better than not having them, just don't put all your assurances into them
+
+
+## Lesson 10
+- The Aave testnet site has moved from `https://testnet.aave.com` to `https://staging.aave.com` and some of the functionality is lost :( 
