@@ -511,7 +511,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ### Defi Intro
 - [Defipulse](https://defipulse.com/)
 - [Defillama](https://defillama.com/)
-- [Aave Testnet Site](https://testnet.aave.com/)
+- [Aave Testnet Site](https://staging.aave.com/)
 - [Paraswap](https://paraswap.io/)
 - Decentralized Exchange
 ### Aave UI
