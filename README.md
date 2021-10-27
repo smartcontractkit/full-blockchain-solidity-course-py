@@ -1,5 +1,5 @@
-*Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby)
-You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby)
+*Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby).
+You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby).
 
 [YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
