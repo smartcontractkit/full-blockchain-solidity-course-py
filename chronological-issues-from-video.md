@@ -5,6 +5,8 @@ This file will list issues/updates by timestamp. If you have an issue that you d
 ## Faucet Issues
 - If you have any issues with a faucet, please try another testnet. You'll have to update some contract addresses based on the testnet you're working on. You can find the [most up to date faucets here.](https://docs.chain.link/docs/link-token-contracts/) 
 - If the Rinkeby faucet isn't working, you can use a kovan faucet, just be sure to use Kovan Etherscan and Kovan in your Metamask!
+- *Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby)
+- You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby)
 
 ## Linting issues
 
