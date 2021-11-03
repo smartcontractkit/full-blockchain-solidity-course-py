@@ -719,7 +719,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - Deploying TokenFarm
   - Adding allowed tokens
 - [ERC20 Kovan Faucet](https://erc20faucet.com/)
-- If the link above does not work, you can get another ERC20 token using this faucet: [Weenus ERC20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet)
+  - If the link above does not work, you can get another ERC20 token using this faucet: [Weenus ERC20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet)
 - Mocking our ERC20s
 ### Testing our Defi Stake Yield Brownie Dapp
 - `test_set_price_feed_contract`
