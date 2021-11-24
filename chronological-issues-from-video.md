@@ -52,6 +52,21 @@ Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For ex
       - `from solcx import compile_standard, install_solc`
     - And then, we need to add a line right before we run the `compile_standard` code:
       - `install_solc("0.6.0")`
+- [4:00:00](https://www.youtube.com/watch?v=M576WGiDBdQ&t=14423s) Issue with ganache and web3.py
+  - As of `5.25.0` of [web3.py](https://github.com/ethereum/web3.py/tags), we now need to add gasPrice to our transactions with a local ganache chain. 
+  - Adding `"gasPrice": w3.eth.gas_price,` should fix your issue in the transactions. 
+
+Full Example:
+```python
+transaction = SimpleStorage.constructor().buildTransaction(
+    {
+        "chainId": chain_id,
+        "gasPrice": w3.eth.gas_price,
+        "from": my_address,
+        "nonce": nonce,
+    }
+)
+```
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
