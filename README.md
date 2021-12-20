@@ -274,7 +274,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Contract Object
 - Building a Transaction
 - Account Nonce 
-- Calling "Contructor"
+- Calling "Constructor"
 - Transaction Parameters
 - Signing the Transaction
 - NEVER put your private key directly in your code
