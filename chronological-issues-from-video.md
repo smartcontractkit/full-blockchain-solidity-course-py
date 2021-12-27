@@ -67,6 +67,11 @@ transaction = SimpleStorage.constructor().buildTransaction(
     }
 )
 ```
+- [3:56:20](https://youtu.be/M576WGiDBdQ?t=13372) Colorized Brackets.
+  * The referenced extension has been deprecated due to VS code adding native functionality. To enable the new setting search for `bracket` and check the checkbox below:
+  `Editor > Bracket Pair Colorization:` **Enabled**
+
+    ![image](https://user-images.githubusercontent.com/2119741/147293025-4dec848b-747b-4da7-9009-3f9174198b54.png)
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
