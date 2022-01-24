@@ -38,6 +38,12 @@ Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For ex
 ## Integration Testing Issues
 - In some integration tests, we do something like `time.sleep(60)`. Sometimes, you'll have to do much longer, we've had reports go up to `time.sleep(300)`. So, if you want to try that, go get a coffee break while your integration test runs!
 
+## Python related issues
+- In some environments Web3.py may not work due to the **Cytools** error, which means your computer lacks some `C` language libraries in order to execute. 
+
+  [Here](https://medium.com/@cromewar/the-mighty-cytools-error-at-web3-smart-contract-development-with-brownie-63335d50f230) you can find a detailed guide about how to solve the problem.
+
+
 ## Lesson 3:
 - [2:37:05](https://youtu.be/M576WGiDBdQ?t=9425) Kovan vs Rinkeby
   - Our `FundMe.sol` needs to be deployed to the *rinkeby* chain to work, but if you go to try the price feeds from the Chainlink docs using the remix link, that one has the *kovan* price feeds in it, so needs to be deployed to kovan. 
