@@ -18,6 +18,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Resources For This Course](#resources-for-this-course)
     - [Questions](#questions)
     - [Windows Support](#windows-support)
+    - [Errors and Solutions](#errors-and-solutions)
 - [Lesson 0: Welcome To Blockchain](#lesson-0-welcome-to-blockchain)
   - [What is a Blockchain?](#what-is-a-blockchain)
   - [Making Your First Transaction](#making-your-first-transaction)
@@ -87,6 +88,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Learning More](#learning-more)
     - [Community](#community)
     - [Hackathons](#hackathons)
+    - [Vyper](#vyper)
 
 # Resources For This Course
 ### Questions
@@ -100,6 +102,10 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ### Windows Support
 - [Setup your windows environment](https://medium.com/@cromewar/how-to-setup-windows-10-11-for-smart-contract-development-and-brownie-e7d8d13555b3)
   - Learn how to install all the tools you will need for this course on a windows machine
+
+### Errors and Solutions
+- [Cytools error solution](https://medium.com/@cromewar/the-mighty-cytools-error-at-web3-smart-contract-development-with-brownie-63335d50f230)
+  - A pretty common error amongst users when trying to install/use Web3.py library.
 
 # Lesson 0: Welcome To Blockchain
 ## What is a Blockchain?
