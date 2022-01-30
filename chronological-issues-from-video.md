@@ -73,7 +73,7 @@ transaction = SimpleStorage.constructor().buildTransaction(
 
     ![image](https://user-images.githubusercontent.com/2119741/147293025-4dec848b-747b-4da7-9009-3f9174198b54.png)
 - [4:34:25](https://youtu.be/M576WGiDBdQ?t=16465) Command `$ brownie run scripts/deploy.py`
-  - If you encounter an issue with ports, you can update the port to 8545 under settings -> Server
+  - If you encounter an issue with ports, you can update the port to 8545 under Settings -> Server. This is the standard port that will be connected to by the `$ brownie run <path>` command.
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
   - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
