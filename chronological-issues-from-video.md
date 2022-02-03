@@ -73,6 +73,14 @@ transaction = SimpleStorage.constructor().buildTransaction(
 
     ![image](https://user-images.githubusercontent.com/2119741/147293025-4dec848b-747b-4da7-9009-3f9174198b54.png)
 
+- [4:19:40](https://youtu.be/M576WGiDBdQ?t=15580) Installing ganache-cli with yarn
+  - ganache-cli is deprecated
+  - visit [GitHub Ganach repo](https://github.com/trufflesuite/ganache/releases/tag/v7.0.0) for details
+  - Yarn installation is no longer necessary. Installation is now via npm 
+  - `install ganache --global`
+  - Usage is simply: `ganache` 
+  - Visit [https://www.npmjs.com/package/ganache](https://www.npmjs.com/package/ganache) for more information.
+
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
   - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
