@@ -87,7 +87,6 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 >>> 
 ```
 
-One possibility is setting the chain_id programmatically.
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
