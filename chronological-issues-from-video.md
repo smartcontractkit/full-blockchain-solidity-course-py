@@ -86,7 +86,14 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 '5777'
 >>> 
 ```
-
+- [4:19:40](https://youtu.be/M576WGiDBdQ?t=15580) Installing ganache-cli with yarn
+  - ganache-cli is deprecated
+  - visit [GitHub Ganach repo](https://github.com/trufflesuite/ganache/releases/tag/v7.0.0) for details
+  - Yarn installation is no longer necessary. Installation is now via
+  - `npm install ganache --global`
+  - Usage is simply: `ganache` 
+  - Visit [https://www.npmjs.com/package/ganache](https://www.npmjs.com/package/ganache) for more information.
+  - This has no effect on the later brownie installation, brownie works just fine with the new ganache implementation and the deprecated ganache-cli is not necessary.
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
