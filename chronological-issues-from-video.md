@@ -95,6 +95,32 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
   - Visit [https://www.npmjs.com/package/ganache](https://www.npmjs.com/package/ganache) for more information.
   - This has no effect on the later brownie installation, brownie works just fine with the new ganache implementation and the deprecated ganache-cli is not necessary.
 
+## Lesson 6
+- [5:49:39](https://youtu.be/M576WGiDBdQ?t=20988) Testing Fund Me
+  - The function `test_can_fund_and_withdraw()` in `test_fund_me.py` can easily lead to an incomprehensible error message if the exchange rate calculation has a small deviation.
+  `E AttributeError: 'NoneType' object has no attribute '_with_attr'.`
+  
+  - To prevent this, the test can be adapted as follows. The assert compares the expected value with the calculated value getConversionRate returns.
+  - In case of an even higher deviation than the +100 buffer the assert will return an easy to understand error.
+  
+  
+  ```python
+  def test_can_fund_and_withdraw():
+      account = get_account()
+      fund_me = deploy_fund_me()
+      entrance_fee = fund_me.getEntranceFee() + 100
+      conversion_rate = fund_me.getConversionRate(entrance_fee)
+      minimumUSD = 50 * 10 ** 18
+      assert conversion_rate >= minimumUSD
+      tx = fund_me.fund({"from": account, "value": entrance_fee})
+      tx.wait(1)
+      assert fund_me.addressToAmountFunded(account.address) == entrance_fee
+      tx2 = fund_me.withdraw({"from": account})
+      tx2.wait(1)
+      assert fund_me.addressToAmountFunded(account.address) == 0
+  ``` 
+
+
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
   - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
