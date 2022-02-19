@@ -120,6 +120,19 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
       assert fund_me.addressToAmountFunded(account.address) == 0
   ``` 
 
+- [5:53:40](https://youtu.be/M576WGiDBdQ?t=21261) Brownie testing for reverted transactions does not work with pytest.raises() or brownie.reverts()
+  - AttributeError when using `with pytest.raises(exceptions.VirtualMachineError)`
+  - At the time of writing, Brownie v1.18.1 cannot be installed on Python 3.10.2. Please first check which version of Brownie you have installed before continuing
+`brownie --version`
+
+  - The following behaviour was observed in brownie v1.16.4
+    - Testing for reverted transactions as described in the video here [5:53:40]() with pytest.raises() or brownie.reverts() does not work.
+    - A detailed description of the error can be found here: https://github.com/eth-brownie/brownie/issues/1441
+
+  - The preferred solution is to set up a virtual environment for Python 3.9.10 and install everything needed in it. This solves this problem, and probably a bunch of other backwards compatibility issues with Python 3.10.*, without having to resort to downgrading your default Python version.
+
+  - The setup of such a system is described here in detail.
+    - [How to use a different Python version in a virtual environment to solve version compatibility issues with brownie #1109](https://github.com/smartcontractkit/full-blockchain-solidity-course-py/discussions/1109)
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
