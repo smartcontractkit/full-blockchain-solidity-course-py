@@ -92,7 +92,53 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 '5777'
 >>> 
 ```
+- [4:19:40](https://youtu.be/M576WGiDBdQ?t=15580) Installing ganache-cli with yarn
+  - ganache-cli is deprecated
+  - visit [GitHub Ganach repo](https://github.com/trufflesuite/ganache/releases/tag/v7.0.0) for details
+  - Yarn installation is no longer necessary. Installation is now via
+  - `npm install ganache --global`
+  - Usage is simply: `ganache` 
+  - Visit [https://www.npmjs.com/package/ganache](https://www.npmjs.com/package/ganache) for more information.
+  - This has no effect on the later brownie installation, brownie works just fine with the new ganache implementation and the deprecated ganache-cli is not necessary.
 
+## Lesson 6
+- [5:49:39](https://youtu.be/M576WGiDBdQ?t=20988) Testing Fund Me
+  - The function `test_can_fund_and_withdraw()` in `test_fund_me.py` can easily lead to an incomprehensible error message if the exchange rate calculation has a small deviation.
+  `E AttributeError: 'NoneType' object has no attribute '_with_attr'.`
+  
+  - To prevent this, the test can be adapted as follows. The assert compares the expected value with the calculated value getConversionRate returns.
+  - In case of an even higher deviation than the +100 buffer the assert will return an easy to understand error.
+  
+  
+  ```python
+  def test_can_fund_and_withdraw():
+      account = get_account()
+      fund_me = deploy_fund_me()
+      entrance_fee = fund_me.getEntranceFee() + 100
+      conversion_rate = fund_me.getConversionRate(entrance_fee)
+      minimumUSD = 50 * 10 ** 18
+      assert conversion_rate >= minimumUSD
+      tx = fund_me.fund({"from": account, "value": entrance_fee})
+      tx.wait(1)
+      assert fund_me.addressToAmountFunded(account.address) == entrance_fee
+      tx2 = fund_me.withdraw({"from": account})
+      tx2.wait(1)
+      assert fund_me.addressToAmountFunded(account.address) == 0
+  ``` 
+
+- [5:53:40](https://youtu.be/M576WGiDBdQ?t=21261) Brownie testing for reverted transactions does not work with pytest.raises() or brownie.reverts()
+  - AttributeError when using `with pytest.raises(exceptions.VirtualMachineError)`
+  - At the time of writing, Brownie v1.18.1 cannot be installed on Python 3.10.2. Please first check which version of Brownie you have installed before continuing
+`brownie --version`
+
+  - The following behaviour was observed in brownie v1.16.4
+    - Testing for reverted transactions as described in the video here [5:53:40]() with pytest.raises() or brownie.reverts() does not work.
+    - A detailed description of the error can be found here: https://github.com/eth-brownie/brownie/issues/1441
+
+  - The preferred solution is to set up a virtual environment for Python 3.9.10 and install everything needed in it. This solves this problem, and probably a bunch of other backwards compatibility issues with Python 3.10.*, without having to resort to downgrading your default Python version.
+
+  - The setup of such a system is described here in detail.
+    - [How to use a different Python version in a virtual environment to solve version compatibility issues with brownie #1109](https://github.com/smartcontractkit/full-blockchain-solidity-course-py/discussions/1109)
 
 ## Lesson 7
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
