@@ -782,7 +782,7 @@ Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
 # Closing and Summary
 ## Security
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
-- [Attacks](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
+- [Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
   - [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
   - [Re-entrancy Attacks](https://quantstamp.com/blog/what-is-a-re-entrancy-attack)
 - [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
