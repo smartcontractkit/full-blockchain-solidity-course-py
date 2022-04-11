@@ -428,6 +428,8 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
 💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
 
+[Chainlink VRF v1 docs](https://docs.chain.link/docs/get-a-random-number/v1/)
+
 ### Introduction
 - Add a `README.md`
 - Defining the project
