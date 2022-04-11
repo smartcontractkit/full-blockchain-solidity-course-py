@@ -1,6 +1,8 @@
 *Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby).
 You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby).
 
+Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/docs/get-a-random-number/v1/). 
+
 [YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
 <br/>
