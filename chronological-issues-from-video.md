@@ -31,9 +31,11 @@ In your vscode, these and be safely ignored. However you can also add to your se
 }
 ```
 
+
 Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For example:
 <img width="1190" alt="Screen Shot 2021-10-05 at 6 01 45 PM" src="https://user-images.githubusercontent.com/54278053/136108868-15739283-0789-4ce1-bf4a-7491ea4b7c2e.png">
 
+**Note:** remember this is an example, you must provide the actual location on which your `.brownie` folder is located. For more info on on this please refer [here](https://n4n0b1t3.medium.com/how-to-make-vsc-solidity-lint-recognize-your-chainlink-and-openzeppelin-libraries-73775129261c).
 
 ## Integration Testing Issues
 - In some integration tests, we do something like `time.sleep(60)`. Sometimes, you'll have to do much longer, we've had reports go up to `time.sleep(300)`. So, if you want to try that, go get a coffee break while your integration test runs!
