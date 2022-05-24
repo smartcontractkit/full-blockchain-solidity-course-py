@@ -99,6 +99,8 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 ## Lesson 7
 **In the video, we use Chainlink VRF v1 and the documentation has been updated to V2. You can view the [V1 documentation here](https://docs.chain.link/docs/get-a-random-number/v1/)**
 
+- Looking for the VRF Coordinator contract by yourself will probably bring you to the v2 address of it. Make sure to use the v1 VRF Coordinator contract in the brownie-config.yaml file, because it won't work with the v2 contract. The repository has already the correct contract address.
+
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
   - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
   - However, it's still best practice to learn how to use events, especially when updating mappings!
