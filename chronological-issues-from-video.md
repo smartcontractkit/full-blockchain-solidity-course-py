@@ -96,6 +96,14 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 ```
 
 
+## Lesson 6
+- [5:44:00](https://youtu.be/M576WGiDBdQ?t=20640)
+  - In the video, the getEntranceFee() function returns `(minimumUSD * precision) / price`
+  - Integer divisions are rounded towards 0 in Solidity, so this function will almost always return an amount worth slightly less than our minimum price. It makes it unusable with the fund() function because the transaction will revert everytime.
+  - To fix it we can round up the result
+  - getEntranceFee() function should return `((minimumUSD * precision) / price) + 1`
+  - This fix has been [merged](https://github.com/PatrickAlphaC/brownie_fund_me/pull/32/files) and you can read more explanation about the issue [here](https://github.com/PatrickAlphaC/brownie_fund_me/issues/10#issuecomment-1041602057)
+
 ## Lesson 7
 **In the video, we use Chainlink VRF v1 and the documentation has been updated to V2. You can view the [V1 documentation here](https://docs.chain.link/docs/get-a-random-number/v1/)**
 
