@@ -425,6 +425,12 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [First time with git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [Adding our project to github](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
 - Tweet it out!
+### Compatibility with Ganache UI
+- `test_only_owner_can_withdraw()` gives below error if the selected network is Ganache UI::
+```
+E           ValueError: Execution reverted during call: 'VM Exception while processing transaction: revert'. This transaction will likely revert. If you wish to broadcast, include `allow_revert:True` as a transaction parameter.
+```
+[More information here.](https://ethereum.stackexchange.com/questions/114889/deploying-ganache-local-w-brownie-vm-exception-while-processing-transaction-in) 
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
 💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
 
