@@ -1,5 +1,9 @@
-*Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby).
-You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby).
+*Big Update*: [New Goerli Faucet Located Here](https://faucets.chain.link/goerli). 
+*Kovan, Ropsten, and Rinkeby have been deprecated.*
+
+
+You'll need to verify via Twitter to get ETH & LINK. 
+You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#goerli).
 
 Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/docs/get-a-random-number/v1/). 
 
@@ -55,6 +59,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Funding and Withdrawing Python Scripts](#funding-and-withdrawing-python-scripts)
     - [Testing across networks](#testing-across-networks)
     - [Git](#git)
+    - [Compatibility with Ganache UI](#compatibility-with-ganache-ui)
 - [Lesson 7: SmartContract Lottery](#lesson-7-smartcontract-lottery)
     - [Introduction](#introduction-1)
     - [`Lottery.sol`](#lotterysol)
@@ -90,6 +95,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Learning More](#learning-more)
     - [Community](#community)
     - [Hackathons](#hackathons)
+    - [Vyper](#vyper)
 
 # Resources For This Course
 ### Questions
@@ -118,10 +124,12 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 ## Making Your First Transaction
 - [Metamask](https://metamask.io/)
 - [Etherscan](https://etherscan.io/)
+- [Goerli Etherscan](https://goerli.etherscan.io/)
 - [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
 - [Kovan Etherscan](https://kovan.etherscan.io/)
+- [Goerli Faucet](https://faucets.chain.link/goerli)
 - Rinkeby Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby))
-  - NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.  
+  - NOTE: You can always find the most up to date faucets at [faucets.chain.link](https://faucets.chain.link/).
 - OR, use the [Kovan ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to kovan!
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
@@ -170,7 +178,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Recap
 ### Deploying to a "Live" network
 - A testnet or mainnet
-- [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#rinkeby)
+- [Find a faucet here](https://faucets.chain.link/)
 - Connecting Metamask
 - Interacting with Deployed Contracts
 - The EVM
@@ -529,6 +537,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Viewing our token in metamask
 - Adding to an exchange
 # Lesson 10: [Defi & Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
+
+*NOTE: This repo is now archived as kovan is no longer supported. You can still follow along with the learning, but know the code may not work the same on a different testnet. 
+
 💻 Code: https://github.com/PatrickAlphaC/aave_brownie_py_freecode
 
 ### Defi Intro
@@ -715,6 +726,11 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Testing our upgrades
 ### Upgrades on a testnet
 # Bonus Lesson 13: [Full Stack Defi](https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode)
+
+*Note: This section is archived as kovan is now deprecated. If you're looking to learn more Full-stack, check out the full stack portions of the hardhat/javascript video.*
+
+*Link to hardhat/javascript video with more full-stack examples: https://github.com/smartcontractkit/full-blockchain-solidity-course-js*
+
 💻 Code: https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode
 
 - [FreeCodeCamp React](https://www.freecodecamp.org/news/tag/react/)
