@@ -5,7 +5,7 @@
 You'll need to verify via Twitter to get ETH & LINK. 
 You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#goerli).
 
-Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/docs/get-a-random-number/v1/). 
+Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/vrf/v1/examples/get-a-random-number). 
 
 [YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
@@ -442,7 +442,7 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
 💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
 
-[Chainlink VRF v1 docs](https://docs.chain.link/docs/get-a-random-number/v1/)
+[Chainlink VRF v1 docs](https://docs.chain.link/vrf/v1/examples/get-a-random-number)
 
 ### Introduction
 - Add a `README.md`
