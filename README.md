@@ -1,11 +1,10 @@
-*Big Update*: [New Goerli Faucet Located Here](https://faucets.chain.link/goerli). 
-*Kovan, Ropsten, and Rinkeby have been deprecated.*
+_Big Update_: [New Sepolia Faucet Located Here](https://sepoliafaucet.com/).
+\_Kovan, Ropsten, and Rinkeby have been deprecated. Goerli Still works but we highly recommend Sephlia as its prove of stake based.
 
-
-You'll need to verify via Twitter to get ETH & LINK. 
+You'll need to verify via Twitter to get ETH & LINK.
 You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#goerli).
 
-Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/vrf/v1/examples/get-a-random-number). 
+Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/vrf/v1/examples/get-a-random-number).
 
 [YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
@@ -20,11 +19,12 @@ Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the do
 Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition FreeCodeCamp course!
 
 # Table of Contents
+
 - [Table of Contents](#table-of-contents)
 - [Resources For This Course](#resources-for-this-course)
-    - [Questions](#questions)
-    - [Windows Support](#windows-support)
-    - [Hiccups/Issues from the Video](#hiccupsissues-from-the-video)
+  - [Questions](#questions)
+  - [Windows Support](#windows-support)
+  - [Hiccups/Issues from the Video](#hiccupsissues-from-the-video)
 - [Lesson 0: Welcome To Blockchain](#lesson-0-welcome-to-blockchain)
   - [What is a Blockchain?](#what-is-a-blockchain)
   - [Making Your First Transaction](#making-your-first-transaction)
@@ -33,62 +33,62 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - [The Future](#the-future)
   - [Miscellaneous](#miscellaneous)
 - [Lesson 1: Welcome to Remix! Simple Storage](#lesson-1-welcome-to-remix-simple-storage)
-    - [Everything in this section can be read about in the Solidity Documentation](#everything-in-this-section-can-be-read-about-in-the-solidity-documentation)
-    - [Remix](#remix)
-    - [Basic Solidity](#basic-solidity)
-    - [Deploying to a "Live" network](#deploying-to-a-live-network)
+  - [Everything in this section can be read about in the Solidity Documentation](#everything-in-this-section-can-be-read-about-in-the-solidity-documentation)
+  - [Remix](#remix)
+  - [Basic Solidity](#basic-solidity)
+  - [Deploying to a "Live" network](#deploying-to-a-live-network)
 - [Lesson 2: Storage Factory](#lesson-2-storage-factory)
-    - [Inheritance, Factory Pattern, and Interacting with External Contracts](#inheritance-factory-pattern-and-interacting-with-external-contracts)
+  - [Inheritance, Factory Pattern, and Interacting with External Contracts](#inheritance-factory-pattern-and-interacting-with-external-contracts)
 - [Lesson 3: Fund Me](#lesson-3-fund-me)
-    - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
-    - [Chainlink Oracles](#chainlink-oracles)
-    - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
+  - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
+  - [Chainlink Oracles](#chainlink-oracles)
+  - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
 - [Lesson 4: Web3.py Simple Storage](#lesson-4-web3py-simple-storage)
-    - [Installing VSCode, Python, and Web3](#installing-vscode-python-and-web3)
-    - [Our First Python Script with Web3.py - Deploying a Contract](#our-first-python-script-with-web3py---deploying-a-contract)
-    - [Interacting with Our Contract in Python & Web3.py](#interacting-with-our-contract-in-python--web3py)
+  - [Installing VSCode, Python, and Web3](#installing-vscode-python-and-web3)
+  - [Our First Python Script with Web3.py - Deploying a Contract](#our-first-python-script-with-web3py---deploying-a-contract)
+  - [Interacting with Our Contract in Python & Web3.py](#interacting-with-our-contract-in-python--web3py)
 - [Lesson 5: Brownie Simple Storage](#lesson-5-brownie-simple-storage)
-    - [Brownie Introduction](#brownie-introduction)
-    - [Installing Brownie](#installing-brownie)
-    - [Brownie Simple Storage Project](#brownie-simple-storage-project)
-    - [Testing Basics](#testing-basics)
-    - [[Brownie console]](#brownie-console)
+  - [Brownie Introduction](#brownie-introduction)
+  - [Installing Brownie](#installing-brownie)
+  - [Brownie Simple Storage Project](#brownie-simple-storage-project)
+  - [Testing Basics](#testing-basics)
+  - [[Brownie console]](#brownie-console)
 - [Lesson 6: Brownie Fund Me](#lesson-6-brownie-fund-me)
-    - [Introduction](#introduction)
-    - [Dependencies, Deploying, and Networks](#dependencies-deploying-and-networks)
-    - [Funding and Withdrawing Python Scripts](#funding-and-withdrawing-python-scripts)
-    - [Testing across networks](#testing-across-networks)
-    - [Git](#git)
-    - [Compatibility with Ganache UI](#compatibility-with-ganache-ui)
+  - [Introduction](#introduction)
+  - [Dependencies, Deploying, and Networks](#dependencies-deploying-and-networks)
+  - [Funding and Withdrawing Python Scripts](#funding-and-withdrawing-python-scripts)
+  - [Testing across networks](#testing-across-networks)
+  - [Git](#git)
+  - [Compatibility with Ganache UI](#compatibility-with-ganache-ui)
 - [Lesson 7: SmartContract Lottery](#lesson-7-smartcontract-lottery)
-    - [Introduction](#introduction-1)
-    - [`Lottery.sol`](#lotterysol)
-    - [Testing Lottery.sol](#testing-lotterysol)
-    - [Lottery.sol Testnet Deployment](#lotterysol-testnet-deployment)
+  - [Introduction](#introduction-1)
+  - [`Lottery.sol`](#lotterysol)
+  - [Testing Lottery.sol](#testing-lotterysol)
+  - [Lottery.sol Testnet Deployment](#lotterysol-testnet-deployment)
 - [Lesson 8: Chainlink Mix](#lesson-8-chainlink-mix)
   - [Brownie Mixes](#brownie-mixes)
 - [Lesson 9: ERC20s, EIPs, and Token Standards](#lesson-9-erc20s-eips-and-token-standards)
 - [Lesson 10: Defi & Aave](#lesson-10-defi--aave)
-    - [Defi Intro](#defi-intro)
-    - [Aave UI](#aave-ui)
-    - [Programmatic Interactions with Aave](#programmatic-interactions-with-aave)
-    - [Testing](#testing)
+  - [Defi Intro](#defi-intro)
+  - [Aave UI](#aave-ui)
+  - [Programmatic Interactions with Aave](#programmatic-interactions-with-aave)
+  - [Testing](#testing)
 - [Lesson 11: NFTs](#lesson-11-nfts)
-    - [Non-Technical Explainer](#non-technical-explainer)
-    - [Simple NFT](#simple-nft)
-    - [SimpleCollectible Testing](#simplecollectible-testing)
-    - [Advanced NFT](#advanced-nft)
-    - [Advanced deploy_and_create](#advanced-deploy_and_create)
-    - [Creating Metadata & IPFS](#creating-metadata--ipfs)
+  - [Non-Technical Explainer](#non-technical-explainer)
+  - [Simple NFT](#simple-nft)
+  - [SimpleCollectible Testing](#simplecollectible-testing)
+  - [Advanced NFT](#advanced-nft)
+  - [Advanced deploy_and_create](#advanced-deploy_and_create)
+  - [Creating Metadata & IPFS](#creating-metadata--ipfs)
 - [Lesson 12: Upgrades](#lesson-12-upgrades)
-    - [Introduction to upgrading smart contracts](#introduction-to-upgrading-smart-contracts)
-    - [Upgrades-mix and code](#upgrades-mix-and-code)
-    - [Testing Upgrades](#testing-upgrades)
-    - [Upgrades on a testnet](#upgrades-on-a-testnet)
+  - [Introduction to upgrading smart contracts](#introduction-to-upgrading-smart-contracts)
+  - [Upgrades-mix and code](#upgrades-mix-and-code)
+  - [Testing Upgrades](#testing-upgrades)
+  - [Upgrades on a testnet](#upgrades-on-a-testnet)
 - [Bonus Lesson 13: Full Stack Defi](#bonus-lesson-13-full-stack-defi)
-    - [Defi Stake Yield Brownie Scripts & Tests](#defi-stake-yield-brownie-scripts--tests)
-    - [Testing our Defi Stake Yield Brownie Dapp](#testing-our-defi-stake-yield-brownie-dapp)
-    - [Front End / Full Stack](#front-end--full-stack)
+  - [Defi Stake Yield Brownie Scripts & Tests](#defi-stake-yield-brownie-scripts--tests)
+  - [Testing our Defi Stake Yield Brownie Dapp](#testing-our-defi-stake-yield-brownie-dapp)
+  - [Front End / Full Stack](#front-end--full-stack)
 - [Closing and Summary](#closing-and-summary)
   - [Security](#security)
   - [Where do I go now?](#where-do-i-go-now)
@@ -98,7 +98,9 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - [Vyper](#vyper)
 
 # Resources For This Course
+
 ### Questions
+
 - [Github Discussions](https://github.com/smartcontractkit/full-blockchain-solidity-course-py/discussions)
   - Ask questions and chat about the course here!
 - [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
@@ -107,54 +109,76 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - Great place for asking technical questions overall
 
 ### Windows Support
+
 - [Setup your windows environment](https://medium.com/@cromewar/how-to-setup-windows-10-11-for-smart-contract-development-and-brownie-e7d8d13555b3)
   - Learn how to install all the tools you will need for this course on a windows machine
 
 ### Hiccups/Issues from the Video
+
 - [Chronological Issues from the Video](https://github.com/smartcontractkit/full-blockchain-solidity-course-py/blob/main/chronological-issues-from-video.md)
-    - A list of known hiccups/issues you may encounter while implementing the content from the video
+  - A list of known hiccups/issues you may encounter while implementing the content from the video
 
 # Lesson 0: Welcome To Blockchain
+
 ## What is a Blockchain?
+
 - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
 - [Hybrid Smart Contracts](https://blog.chain.link/hybrid-smart-contracts-explained/)
 - [Blockchain Oracles](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72?source=friends_link&sk=d921a38466df8a9176ed8dd767d8c77d)
 - [What is a blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
+
 ## Making Your First Transaction
+
 - [Metamask](https://metamask.io/)
 - [Etherscan](https://etherscan.io/)
 - [Goerli Etherscan](https://goerli.etherscan.io/)
-- [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
 - [Kovan Etherscan](https://kovan.etherscan.io/)
 - [Goerli Faucet](https://faucets.chain.link/goerli)
+- [Sepolia Faucet](https://sepoliafaucet.com/)
+- [Sepolia Etherscan](https://sepolia.etherscan.io/)
+
 - Rinkeby Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby))
   - NOTE: You can always find the most up to date faucets at [faucets.chain.link](https://faucets.chain.link/).
 - OR, use the [Kovan ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to kovan!
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
 - [ETH Gas Station](https://ethgasstation.info/)
-## How Do Blockchains Work? 
+
+## How Do Blockchains Work?
+
 - [Blockchain Demo](https://andersbrownworth.com/blockchain/)
 - [Public / Private Keys](https://andersbrownworth.com/blockchain/public-private-keys/keys)
 - [Layer 2 and Rollups](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
 - [Decentralized Blockchain Oracles](https://blog.chain.link/what-is-the-blockchain-oracle-problem/)
 - [Block Rewards](https://www.investopedia.com/terms/b/block-reward.asp)
 - [Run Your Own Ethereum Node](https://geth.ethereum.org/docs/getting-started)
+
 ### Consensus
+
 - [Consensus](https://wiki.polkadot.network/docs/learn-consensus)
 - [Proof of Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
 - [Proof of Work](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)
 - [Nakamoto Consensus](https://blockonomi.com/nakamoto-consensus/)
+
 ## The Future
+
 - [Ethereum 2](https://ethereum.org/en/eth2/)
-## Miscellaneous 
+
+## Miscellaneous
+
 - [DAOs](https://www.investopedia.com/tech/what-dao/)
+
 # Lesson 1: [Welcome to Remix! Simple Storage](https://github.com/PatrickAlphaC/simple_storage)
+
 💻 Code: https://github.com/PatrickAlphaC/simple_storage
+
 ### Everything in this section can be read about in the [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.6/index.html)
+
 ### [Remix](https://remix.ethereum.org/)
+
 ### Basic Solidity
+
 - Versioning
 - Compiling
 - Contract Declaration
@@ -176,27 +200,39 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Mappings
 - SPDX License
 - Recap
+
 ### Deploying to a "Live" network
+
 - A testnet or mainnet
 - [Find a faucet here](https://faucets.chain.link/)
 - Connecting Metamask
 - Interacting with Deployed Contracts
 - The EVM
+
 # Lesson 2: [Storage Factory](https://github.com/PatrickAlphaC/storage_factory)
+
 💻 Code: https://github.com/PatrickAlphaC/storage_factory
+
 ### Inheritance, Factory Pattern, and Interacting with External Contracts
+
 - Factory Pattern
 - Imports
 - Deploy a Contract From a Contract
 - Interact With a Deployed Contract
 - Recap
+
 # Lesson 3: [Fund Me](https://github.com/PatrickAlphaC/fund_me)
+
 💻 Code: https://github.com/PatrickAlphaC/fund_me
+
 ### Payable, msg.sender, msg.value, Units of Measure
+
 - Payable
 - [Wei/Gwei/Eth Converter](https://eth-converter.com/)
 - msg.sender & msg.value
+
 ### Chainlink Oracles
+
 - Decentralized Oracle Network Chainlink
   - Blockchains can't make API calls
   - Centralized Nodes are Points of Failure
@@ -206,10 +242,12 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - [Faucets and Contract Addresses](https://docs.chain.link/docs/link-token-contracts/)
     - [Kovan](https://docs.chain.link/docs/link-token-contracts/#kovan)
   - [Getting Price Information](https://docs.chain.link/docs/get-the-latest-price/)
+
 ### Importing from NPM and Advanced Solidity
+
 - Decimals/Floating Point Numbers in Solidity
 - latestRoundData
-- Importing from NPM  in Remix
+- Importing from NPM in Remix
 - Interfaces
   - Introduction to ABIs
 - [Getting Price Feed Addresses](https://docs.chain.link/docs/reference-contracts/)
@@ -226,7 +264,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Setting a Threshold
 - Require
 - Revert
-- Withdraw Function 
+- Withdraw Function
 - Transfer
 - Balance
 - this
@@ -239,9 +277,13 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Array Length
 - Forcing a Transaction
 - Recap
+
 # Lesson 4: [Web3.py Simple Storage](https://github.com/PatrickAlphaC/web3_py_simple_storage)
+
 💻 Code: https://github.com/PatrickAlphaC/web3_py_simple_storage
+
 ### Installing VSCode, Python, and Web3
+
 - [Developer Bootcamp Setup Instructions (metamask, vscode, python, nodejs..)](https://chain.link/bootcamp/brownie-setup-instructions)
 - [VSCode](https://code.visualstudio.com/download)
 - [VSCode Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)
@@ -263,7 +305,9 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - Solidity Prettier
   - [Python Black](https://pypi.org/project/black/)
   - [pip](https://pypi.org/project/pip/)
+
 ### Our First Python Script with Web3.py - Deploying a Contract
+
 - Reading our solidity file
 - Running a Python Script in the Terminal
 - [MaxOS Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
@@ -273,22 +317,22 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [py-solc-x](https://pypi.org/project/py-solc-x/)
   - compile_standard
 - Colorized Brackets
-- JSON ABI 
+- JSON ABI
 - Saving Compiled Code
 - Formatting JSON
 - Deploying in Python
   1. Get Bytecode
   2. Get ABI
   3. Choose Blockchain to Deploy To
-    - Local Ganache Chain
-      - [Ganache UI](https://www.trufflesuite.com/ganache)
-      - [Ganache Command Line](https://github.com/trufflesuite/ganache-cli)
+  - Local Ganache Chain
+    - [Ganache UI](https://www.trufflesuite.com/ganache)
+    - [Ganache Command Line](https://github.com/trufflesuite/ganache-cli)
 - [Web3.py](https://web3py.readthedocs.io/en/stable/)
 - HTTP / RPC Provider
 - Private Keys MUST start with "0x"
 - Contract Object
 - Building a Transaction
-- Account Nonce 
+- Account Nonce
 - Calling "Constructor"
 - Transaction Parameters
 - Signing the Transaction
@@ -303,7 +347,9 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
   - [python-dotenv](https://pypi.org/project/python-dotenv/)
 - Viewing our Transaction / Deployment in Ganache
 - Waiting for Block Confirmations
+
 ### Interacting with Our Contract in Python & Web3.py
+
 - 2 Things you always need
   1. Contract Address
   2. Contract ABI
@@ -323,19 +369,27 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Using Infura RPC URL / HTTP Provider
 - [Chain Ids](https://chainlist.org/)
 - Wow this seems like a lot of work... Is there a better way?
+
 # Lesson 5: [Brownie Simple Storage](https://github.com/PatrickAlphaC/brownie_simple_storage)
+
 💻 Code: https://github.com/PatrickAlphaC/brownie_simple_storage
+
 ### Brownie Introduction
+
 - Some Users:
   - https://yearn.finance/
   - https://curve.fi/
   - https://badger.finance/
+
 ### Installing Brownie
+
 - [Installing Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html)
   - Install pipx
   - pipx install eth-brownie
   - Testing Successful Install
+
 ### Brownie Simple Storage Project
+
 - A new Brownie project with `brownie init`
   - Project Basic Explanation
 - Adding `SimpleStorage.sol` to the `contracts` folder
@@ -347,17 +401,19 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - brownie `accounts`
   - 3 Ways to Add Accounts
     1. `accounts[0]`: Brownie's "default" ganache accounts
-       - Only works for local ganache 
+       - Only works for local ganache
     2. `accounts.load("...")`: Brownie's encrypted command line (MOST SECURE)
        - Run `brownie accounts new <name>` and enter your private key and a password
     3. `accounts.add(config["wallets"]["from_key"])`: Storing Private Keys as an environment variable, and pulling from our `brownie-config.yaml`
-        - You'll need to add `dotenv: .env` to your `brownie-config.yaml` and have a `.env` file
+       - You'll need to add `dotenv: .env` to your `brownie-config.yaml` and have a `.env` file
 - Importing a Contract
 - Contract.Deploy
 - View Function Call in Brownie
 - State-Changing Function Call in Brownie / Contract Interaction
 - `transaction.wait(1)`
+
 ### Testing Basics
+
 - `test_simple_storage.py`
 - Arrange, Act, Assert
 - [`assert`](https://docs.pytest.org/en/6.2.x/assert.html)
@@ -377,14 +433,21 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - build/deployments
 - Accessing previous deployments
 - Interacting with contracts deployed in our brownie project
+
 ### [Brownie console]
+
 - `brownie console`
+
 # Lesson 6: [Brownie Fund Me](https://github.com/PatrickAlphaC/brownie_fund_me)
+
 💻 Code: https://github.com/PatrickAlphaC/brownie_fund_me
 
 ### Introduction
+
 - Setup
+
 ### Dependencies, Deploying, and Networks
+
 - Dependencies
 - [chainlink-brownie-contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts)
 - remappings
@@ -400,7 +463,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
     - `ETHERSCAN_TOKEN`
   - Interacting with Etherscan
 - Deploying to Local Chains
-- Introduction to Mocking 
+- Introduction to Mocking
 - Constructor Parameters
 - `networks` in our `brownie-config.yaml`
 - Copying [Mock Contracts from chainlink-mix](https://github.com/smartcontractkit/chainlink-mix)
@@ -410,11 +473,15 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - brownie attach
 - Adding a persistent brownie network
 - resetting a network build
+
 ### Funding and Withdrawing Python Scripts
+
 - Whoops! Let's fix an issue...
 - Fund Script
 - Withdraw Script
+
 ### Testing across networks
+
 - `test_can_fund_and_withdraw`
 - default networks
 - pytest `pip install pytest`
@@ -427,28 +494,39 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [Alchemy](https://www.alchemy.com/)
 - `brownie test --network mainnet-fork`
 - brownie ganache vs local ganache vs mainnet-fork vs testnet...
+
 ### Git
+
 - [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- Creating a repository 
+- Creating a repository
 - [First time with git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [Adding our project to github](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
 - Tweet it out!
+
 ### Compatibility with Ganache UI
+
 - `test_only_owner_can_withdraw()` gives below error if the selected network is Ganache UI::
+
 ```
 E           ValueError: Execution reverted during call: 'VM Exception while processing transaction: revert'. This transaction will likely revert. If you wish to broadcast, include `allow_revert:True` as a transaction parameter.
 ```
-[More information here.](https://ethereum.stackexchange.com/questions/114889/deploying-ganache-local-w-brownie-vm-exception-while-processing-transaction-in) 
+
+[More information here.](https://ethereum.stackexchange.com/questions/114889/deploying-ganache-local-w-brownie-vm-exception-while-processing-transaction-in)
+
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
+
 💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
 
 [Chainlink VRF v1 docs](https://docs.chain.link/vrf/v1/examples/get-a-random-number)
 
 ### Introduction
+
 - Add a `README.md`
 - Defining the project
 - Is it decentralized?
+
 ### `Lottery.sol`
+
 - basic setup
 - Main Functions
 - address payable[]
@@ -464,7 +542,7 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - [Alchemy](https://www.alchemy.com/) again
 - Enum
 - `startLottery`
-- [Openzeppelin](https://openzeppelin.com/contracts/)... Is this the first openzeppelin reference? 
+- [Openzeppelin](https://openzeppelin.com/contracts/)... Is this the first openzeppelin reference?
 - [Openzeppelin Contracts Github](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - Randomness
 - Pseudorandomness
@@ -490,7 +568,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Modulo Operation (Mod Operation %)
 - Paying the lottery winner
 - Resetting the lottery
+
 ### Testing Lottery.sol
+
 - `deploy_lottery.py`
 - `get_account()` refactored
 - `get_contract`
@@ -517,15 +597,22 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - `test_can_pick_winner_correctly`
 - Events and Logs
 - `callBackWithRandomness`
+
 ### Lottery.sol Testnet Deployment
+
 - `topics`
 - [conftest.py](https://stackoverflow.com/questions/34466027/in-pytest-what-is-the-use-of-conftest-py-files)
-# Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix) 
+
+# Lesson 8: [Chainlink Mix](https://github.com/smartcontractkit/chainlink-mix)
+
 💻 Code: https://github.com/smartcontractkit/chainlink-mix
 
 ## [Brownie Mixes](https://github.com/brownie-mix)
+
 # Lesson 9: [ERC20s, EIPs, and Token Standards](https://github.com/PatrickAlphaC/erc20-brownie-py)
+
 💻 Code: https://github.com/PatrickAlphaC/erc20-brownie-py
+
 - [ERC20/EIP20 Standard](https://eips.ethereum.org/EIPS/eip-20)
 - What is an ERC20?
 - Creating an ERC20
@@ -536,19 +623,23 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Copy paste `helpful_scripts.py`
 - Viewing our token in metamask
 - Adding to an exchange
+
 # Lesson 10: [Defi & Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
 
-*NOTE: This repo is now archived as kovan is no longer supported. You can still follow along with the learning, but know the code may not work the same on a different testnet. 
+\*NOTE: This repo is now archived as kovan is no longer supported. You can still follow along with the learning, but know the code may not work the same on a different testnet.
 
 💻 Code: https://github.com/PatrickAlphaC/aave_brownie_py_freecode
 
 ### Defi Intro
+
 - [Defipulse](https://defipulse.com/)
 - [Defillama](https://defillama.com/)
 - [Aave Testnet Site](https://staging.aave.com/)
 - [Paraswap](https://paraswap.io/)
 - Decentralized Exchange
+
 ### Aave UI
+
 - [Kovan ETH](https://docs.chain.link/docs/link-token-contracts/#kovan)
 - What is Aave?
 - Borrowing and Lending
@@ -572,7 +663,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Repaying our borrows/loans
 - Reward token / governance token
 - Governance
+
 ### [Programmatic Interactions with Aave](https://github.com/PatrickAlphaC/aave_brownie_py_freecode)
+
 - Quant Defi Engineer
 - [Aave Documentation](https://docs.aave.com/developers/)
 - Setup
@@ -594,7 +687,7 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - [getUserAccountData](https://docs.aave.com/developers/the-core-protocol/lendingpool#getuseraccountdata)
 - Liquidation Threshold
 - [Risk Parameters](https://docs.aave.com/risk/asset-risk/risk-parameters)
-- Borrowing DAI 
+- Borrowing DAI
 - Getting DAI Conversion Rate
   - [Chainlink Price Feeds](https://docs.chain.link/docs/reference-contracts/)
   - [AggregatorV3Interface](https://github.com/PatrickAlphaC/aave_brownie_py/blob/main/interfaces/AggregatorV3Interface.sol)
@@ -604,18 +697,24 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Repaying
 - Kovan Run
 - Viewing the transactions
+
 ### Testing
+
 # Lesson 11: [NFTs](https://github.com/PatrickAlphaC/nft-demo)
+
 💻 Code: https://github.com/PatrickAlphaC/nft-demo
 
 ### Non-Technical Explainer
+
 - [End-to-end article](https://www.freecodecamp.org/news/how-to-make-an-nft-and-render-on-opensea-marketplace/)
 - What is an NFT?
 - [ERC721](https://eips.ethereum.org/EIPS/eip-721)
 - Token URI
 - [Token Metadata Example](https://docs.opensea.io/docs/2-adding-metadata)
 - [IPFS](https://ipfs.io/)
-### Simple NFT 
+
+### Simple NFT
+
 - [brownie mix](https://github.com/PatrickAlphaC/nft-mix)
 - Initial Setup
 - `SimpleCollectible.sol`
@@ -638,9 +737,13 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - [IPFS Companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en)
 - Rinkeby Deployment
 - [Opensea Example](https://testnets.opensea.io/assets/0x8acb7ca932892eb83e4411b59309d44dddbc4cdf/0)
+
 ### SimpleCollectible Testing
+
 - What else with NFTs?
+
 ### Advanced NFT
+
 - `AdvancedCollectible.sol`
 - [Dungeons and Dragons Example](https://github.com/PatrickAlphaC/dungeons-and-dragons-nft)
 - Double Inherited Constructors
@@ -652,7 +755,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
   - `_isApprovedOrOwner`
 - Emit events when you update mappings
 - [`indexed` event keyword](https://ethereum.stackexchange.com/questions/8658/what-does-the-indexed-keyword-do/8659)
+
 ### Advanced deploy_and_create
+
 - Move `OPENSEA_URL` to `helpful_scripts`
 - Deploying AdvancedCollectible
   - Opensea testnet is only compatible with Rinkeby
@@ -662,7 +767,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - `create_collectible.py`
 - A quick unit test
 - A quick integration test
+
 ### Creating Metadata & IPFS
+
 - `create_metadata.py`
 - `get_breed`
 - Metadata Folder
@@ -681,13 +788,16 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Setting the TokenURI
 - End-To-End Manual Testnet Test
 - Viewing on Opensea
+
 # Lesson 12: [Upgrades](https://github.com/PatrickAlphaC/upgrades-mix)
+
 💻 Code: https://github.com/PatrickAlphaC/upgrades-mix
 
 ### Introduction to upgrading smart contracts
+
 - [Original Video](https://www.youtube.com/watch?v=bdXJmWajZRY)
 - Smart Contracts can be upgraded!
-- Does this mean they are not immutable? 
+- Does this mean they are not immutable?
 - [Trail of Bits on Upgradeable Smart Contracts](https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns/)
 - The "Not Really Upgrading" / Parameterization Method
 - The Social Yeet / Migration Method
@@ -707,7 +817,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
     - [Transparent Proxy Pattern](https://blog.openzeppelin.com/the-transparent-proxy-pattern/)
     - [Universal Upgrade Proxy Standard](https://eips.ethereum.org/EIPS/eip-1822)
     - [Diamond/Multi-Facet Proxy](https://eips.ethereum.org/EIPS/eip-2535)
+
 ### Upgrades-mix and code
+
 - Setup
 - `Box.sol`
 - `BoxV2.sol`
@@ -721,15 +833,19 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - Assigning ABI to a proxy
 - Running the script
 - Upgrade Python Function
+
 ### Testing Upgrades
+
 - Testing our proxy
 - Testing our upgrades
+
 ### Upgrades on a testnet
+
 # Bonus Lesson 13: [Full Stack Defi](https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode)
 
-*Note: This section is archived as kovan is now deprecated. If you're looking to learn more Full-stack, check out the full stack portions of the hardhat/javascript video.*
+_Note: This section is archived as kovan is now deprecated. If you're looking to learn more Full-stack, check out the full stack portions of the hardhat/javascript video._
 
-*Link to hardhat/javascript video with more full-stack examples: https://github.com/smartcontractkit/full-blockchain-solidity-course-js*
+_Link to hardhat/javascript video with more full-stack examples: https://github.com/smartcontractkit/full-blockchain-solidity-course-js_
 
 💻 Code: https://github.com/PatrickAlphaC/defi-stake-yield-brownie-freecode
 
@@ -749,7 +865,9 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
   - `setPriceFeedContract`
   - `unStakeTokens`
   - Can this be reentrancy attacked?
+
 ### Defi Stake Yield Brownie Scripts & Tests
+
 - `deploy.py`
   - Deploying DappToken
   - Deploying TokenFarm
@@ -757,13 +875,17 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
 - [ERC20 Kovan Faucet](https://erc20faucet.com/)
   - If the link above does not work, you can get another ERC20 token using this faucet: [Weenus ERC20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet)
 - Mocking our ERC20s
+
 ### Testing our Defi Stake Yield Brownie Dapp
+
 - `test_set_price_feed_contract`
 - `test_stake_tokens`
 - Fixtures
 - `test_issue_tokens`
 - Now you try on tests!
+
 ### Front End / Full Stack
+
 - Front End Introduction
 - Typescript
 - [React](https://reactjs.org/)
@@ -802,11 +924,12 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
   - Make it pretty
   - Alerts
 
-
 Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
 
 # Closing and Summary
+
 ## Security
+
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
   - [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
@@ -817,8 +940,11 @@ Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
   - [OpenZeppelin](https://openzeppelin.com/)
   - [SigmaPrime](https://sigmaprime.io/)
   - [Trail of Bits](https://www.trailofbits.com/)
+
 ## Where do I go now?
+
 ### Learning More
+
 - [CryptoZombies](https://cryptozombies.io/)
 - [Dapp University](https://www.youtube.com/channel/UCY0xL8V6NzzFcwzHCgB8orQ)
 - [ChainShot](https://www.chainshot.com/courses)
@@ -828,7 +954,9 @@ Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
 - [Austin Griffith](https://www.youtube.com/channel/UC_HI2i2peo1A-STdG22GFsA)
 - [Nader Dabit](https://www.youtube.com/user/boyindasouth)
 - [Ethereum.org](https://ethereum.org/en/)
+
 ### Community
+
 - Twitter
 - [Brownie Discord](https://discord.gg/9zk7snTfWe)
 - [Ethereum Discord](https://ethereum.org/en/)
@@ -836,15 +964,15 @@ Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
 - [Reddit ethdev](https://www.reddit.com/r/ethdev/)
 
 ### Hackathons
-  - [CL Hackathon](https://chain.link/hackathon)
-  - [ETH Global](https://ethglobal.co/)
-  - [ETH India](https://twitter.com/ETHIndiaco)
+
+- [CL Hackathon](https://chain.link/hackathon)
+- [ETH Global](https://ethglobal.co/)
+- [ETH India](https://twitter.com/ETHIndiaco)
 
 Be sure to check out project grant programs!
 
-### Vyper 
+### Vyper
 
-[From solidity course to vyper](https://github.com/chalex-eth/From-solidity-course-to-vyper-py) 
-
+[From solidity course to vyper](https://github.com/chalex-eth/From-solidity-course-to-vyper-py)
 
 And make today an amazing day!
