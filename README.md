@@ -458,7 +458,7 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - Contract Verification (`publish_source`)
   - The Manual Way
     - "Flattening"
-  - The Programatic Way
+  - The Programmatic Way
     - Getting an [Etherscan API Key](https://etherscan.io/apis)
     - `ETHERSCAN_TOKEN`
   - Interacting with Etherscan
