@@ -1,5 +1,5 @@
 _Big Update_: [New Sepolia Faucet Located Here](https://sepoliafaucet.com/).
-\_Kovan, Ropsten, and Rinkeby have been deprecated. Goerli Still works but we highly recommend Sephlia as its prove of stake based.
+\Kovan, Ropsten, and Rinkeby have been deprecated. Goerli Still works but we highly recommend Sepolia as its proof of stake based.
 
 You'll need to verify via Twitter to get ETH & LINK.
 You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#goerli).
