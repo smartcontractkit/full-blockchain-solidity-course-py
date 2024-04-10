@@ -551,6 +551,7 @@ E           ValueError: Execution reverted during call: 'VM Exception while proc
   - `block.timestamp`
 - `keccack256`
 - [True Randomness with Chainlink VRF](https://docs.chain.link/docs/get-a-random-number/)
+- [VRFConsumerBase.sol](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/vrf/VRFConsumerBase.sol)
 - Chainlink VRF Remix Version
 - Inheriting Constructors
 - Oracle Gas & Transaction Gas
