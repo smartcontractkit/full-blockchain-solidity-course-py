@@ -35,7 +35,7 @@ In your vscode, these and be safely ignored. However you can also add to your se
 Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For example:
 <img width="1190" alt="Screen Shot 2021-10-05 at 6 01 45 PM" src="https://user-images.githubusercontent.com/54278053/136108868-15739283-0789-4ce1-bf4a-7491ea4b7c2e.png">
 
-**Note:** remember this is an example, you must provide the actual location on which your `.brownie` folder is located. For more info on on this please refer [here](https://n4n0b1t3.medium.com/how-to-make-vsc-solidity-lint-recognize-your-chainlink-and-openzeppelin-libraries-73775129261c).
+**Note:** remember this is an example, you must provide the actual location on which your `.brownie` folder is located. For more info on this please refer [here](https://n4n0b1t3.medium.com/how-to-make-vsc-solidity-lint-recognize-your-chainlink-and-openzeppelin-libraries-73775129261c).
 
 ## Integration Testing Issues
 - In some integration tests, we do something like `time.sleep(60)`. Sometimes, you'll have to do much longer, we've had reports go up to `time.sleep(300)`. So, if you want to try that, go get a coffee break while your integration test runs!
@@ -110,7 +110,7 @@ Whenever the terms Network ID and Chain ID are used without distinction, it shou
 - Looking for the VRF Coordinator contract by yourself will probably bring you to the v2 address of it. Make sure to use the v1 VRF Coordinator contract in the brownie-config.yaml file, because it won't work with the v2 contract. The repository has already the correct contract address.
 
 - [8:06:54ish](https://youtu.be/M576WGiDBdQ?t=29214)
-  - In the video, we use events exclusivly to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
+  - In the video, we use events exclusively to test our contracts, however, we could have also used `tx.return_value` to get the return value of a function. 
   - However, it's still best practice to learn how to use events, especially when updating mappings!
 
 - [8:10:20ish](https://youtu.be/M576WGiDBdQ?t=29423)
