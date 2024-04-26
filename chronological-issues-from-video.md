@@ -60,6 +60,8 @@ Or whatever version your `@chainlink` and `@openzeppelin` contracts need. For ex
       - `from solcx import compile_standard, install_solc`
     - And then, we need to add a line right before we run the `compile_standard` code:
       - `install_solc("0.6.0")`
+ -[3:58:47] issue with gettransaction numbers?
+-change #nonce=w3.eth.getTransactionCount(curraddress)# to nonce=w3.eth.get_transaction_count(curraddress)
 - [4:00:00](https://www.youtube.com/watch?v=M576WGiDBdQ&t=14423s) Issue with ganache and web3.py
   - As of `5.25.0` of [web3.py](https://github.com/ethereum/web3.py/tags), we now need to add gasPrice to our transactions with a local ganache chain. 
   - Adding `"gasPrice": w3.eth.gas_price,` should fix your issue in the transactions. 
